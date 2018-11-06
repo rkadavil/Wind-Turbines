@@ -1,0 +1,101 @@
+
+ T-Line "T1" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 207.57000  mode1 = 148.26400  mode2 = 148.26400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.06 + j0.19 ohms
+                                      = 0.20 /_71.86 degree
+           Shunt Capacitive Reactance = 61.37 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 0.94 + j0.67 ohms
+                                      = 1.16 /_35.47 degree
+           Shunt Capacitive Reactance = 109.58 ohms
+
+ T-Line "T2" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 389.01900  mode1 = 277.87100  mode2 = 277.87100  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.18 + j0.72 ohms
+                                      = 0.74 /_76.38 degree
+           Shunt Capacitive Reactance = 65.86 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 2.63 + j2.53 ohms
+                                      = 3.65 /_43.93 degree
+           Shunt Capacitive Reactance = 117.60 ohms
+
+ T-Line "T3" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 345.80700  mode1 = 247.00500  mode2 = 247.00500  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.15 + j0.64 ohms
+                                      = 0.66 /_76.65 degree
+           Shunt Capacitive Reactance = 73.97 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 2.28 + j2.24 ohms
+                                      = 3.20 /_44.51 degree
+           Shunt Capacitive Reactance = 132.09 ohms
+
+ T-Line "T4" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 301.56700  mode1 = 215.40500  mode2 = 215.40500  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.19 + j0.57 ohms
+                                      = 0.60 /_71.76 degree
+           Shunt Capacitive Reactance = 86.63 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 2.82 + j2.00 ohms
+                                      = 3.46 /_35.30 degree
+           Shunt Capacitive Reactance = 154.70 ohms
+
+ T-Line "T5" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 285.53600  mode1 = 203.95400  mode2 = 203.95400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.18 + j0.56 ohms
+                                      = 0.59 /_71.87 degree
+           Shunt Capacitive Reactance = 95.30 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 2.77 + j1.97 ohms
+                                      = 3.40 /_35.47 degree
+           Shunt Capacitive Reactance = 170.17 ohms
+
+ T-Line "T6" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 285.67400  mode1 = 204.05300  mode2 = 204.05300  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.22 + j0.55 ohms
+                                      = 0.60 /_68.60 degree
+           Shunt Capacitive Reactance = 93.64 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 3.26 + j1.94 ohms
+                                      = 3.79 /_30.78 degree
+           Shunt Capacitive Reactance = 167.22 ohms
+
+ T-Line "T7" parameters at 60.00 Hz
+ Travel time(usecs) mode0 = 86.21700  mode1 = 61.58400  mode2 = 61.58400  
+ CIRCUIT #1
+     POSITIVE SEQUENCE
+                       Line Impedance = 0.04 + j0.14 ohms
+                                      = 0.14 /_72.41 degree
+           Shunt Capacitive Reactance = 253.13 ohms
+     ZERO SEQUENCE
+                       Line Impedance = 0.65 + j0.48 ohms
+                                      = 0.81 /_36.35 degree
+           Shunt Capacitive Reactance = 452.01 ohms
+ Y Connected  Dynamic Load: R and L in series:
+	Pinit=1.000000 MW(R=140.784200 ohms)
+	Qinit=1.000000 MVar(L=0.373442 H)
+	T= 0.010000	K1=0.002742	K2=0.994515
+	Tm= 0.003000	K1=0.009083	K2=0.981833
+
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+     VSC component ordering 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+RISC CONTROLS COMPONENTS(proc 0) --> RPC-GPC Card #1 Processor A
+numberOfModels = 3
+   component type=RISC_CMODEL model=pqmetX02 DMStart = 2C64 DMSize=24
+   component type=RISC_CMODEL model=PLLv2 DMStart = 2C7C DMSize=130

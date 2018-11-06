@@ -1,0 +1,59 @@
+MESSAGES:
+
+Compiling C:\RTDS_USER\fileman\Rahul\IEEE 14 bus original_2_picard\ASPSH_Turbine_Final.dft for RTDS rack 1...
+Nodes and Wires...
+
+    Compiling subsystem 'Subsystem #1'
+    Electrical nodes found: 51
+
+
+RTDSPC version = 4.0.0h
+=======================
+
+Using configuration file: C:\RSCAD_5\HDWR\config_file_03.txt
+
+WARNING-1 : Warning was reported In cnet_mac_q_axis_ram component .c file. 
+ 
+Warning regarding machine data conversion for
+    machine: 
+
+    Resort to a more forgiving but less accurate
+    data conversion method was forced for the 
+    Quadrature axis due to the calculation
+    of an imaginary number for the short-circuit
+    transient time constant.
+
+    Please check your machine q-axis data.
+    ( machine name: 2x1 ) 
+
+    in subsystem: 1
+
+
+Severity = 2,  Subsystem Number = 1 
+
+
+WARNING-2 : While identifying PB5 to PB5 fiber connections for the
+Fiber Enhanced Backplane (FEB) in subsystem 1,
+it was noticed that the config file indicates
+no fiber path between processor cards.
+Thus the case is compiled without FEB communication
+To use FEB,Please update the config file after making
+fiber connections from PB5 cards to Network card
+Severity = 2,  Subsystem Number = 1 
+
+
+ERROR-3 : A request has been made to retrieve
+      the information for GTNETX2_SKT card number 1
+      on fiber port number: 2
+      on GPC/PB5 card number: 1
+      in subsystem number: 1
+      However no such GTNETX2_SKT card was found at the specified location.
+      Please verify the available peripheral cards in the Config File.
+      Noted in function: storeGTIO_FromCardInDM_RW - 4
+
+Severity = 4,  Subsystem Number = 1 
+
+RSCAD Terminated! 
+ 
+
+Compile V5 completed with errors.

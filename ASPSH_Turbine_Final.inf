@@ -1,0 +1,286 @@
+CASE: Test Circuit 
+Delt: 55.000000 us 
+Rack: 1 NoRealTime: 0 
+Distribution_mode: 0
+vsc_mode: 0
+CVer: 4.0 
+RTDSPC_VERSION:  4.0.0h
+
+String Desc="CircuitTitle Annotation" Group="Annotation" InitValue="IEEE 14 BUS SYSTEM LOAD LEVEL"
+
+
+COMPONENT_TIMING_INFORMATION:
+timing_record: subsystem=1 processor=0 processor_type=PB5
+timing_record: subsystem=1 processor=1 processor_type=PB5
+timing_record: subsystem=1 processor=2 processor_type=PB5
+timing_record: subsystem=1 processor=3 processor_type=PB5
+timing_record: subsystem=1 processor=4 processor_type=PB5
+timing_record: subsystem=1 processor=5 processor_type=PB5
+timing_record: subsystem=1 processor=6 processor_type=PB5
+timing_record: subsystem=1 processor=7 processor_type=PB5
+timing_record: subsystem=1 processor_type=3PC processor_count=0
+timing_record: timing_name=M1 component_type=_pq_inject subsystem=1 processor=3 processor_type=PB5 clock_index=1 enabled=true use=PSYS lf=5.000000
+timing_record: timing_name=T1 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=PB5 clock_index=1 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T2 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=PB5 clock_index=2 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T3 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=PB5 clock_index=3 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T4 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=PB5 clock_index=4 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T5 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=PB5 clock_index=5 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T6 component_type=tln_mdl_02 subsystem=1 processor=2 processor_type=PB5 clock_index=6 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T7 component_type=tln_mdl_02 subsystem=1 processor=3 processor_type=PB5 clock_index=2 enabled=true use=PSYS lf=10.000000 description=Tline
+timing_record: timing_name=T19 component_type=cb_3p2wI subsystem=1 processor=3 processor_type=PB5 clock_index=3 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=T17 component_type=cb_3p2wI subsystem=1 processor=3 processor_type=PB5 clock_index=4 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=T18 component_type=cb_3p2wI subsystem=1 processor=3 processor_type=PB5 clock_index=5 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=1::_1 component_type=netsolCB subsystem=1 processor=1 processor_type=PB5 clock_index=1 enabled=true use=PSYS lf=120.000000 description=NetworkSolution
+timing_record: timing_name=(null) component_type=XPOWNC subsystem=1 processor=6 processor_type=PB5 clock_index=1 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=2 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=time_cb subsystem=1 processor=6 processor_type=PB5 clock_index=3 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=4 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sigsw2_cb subsystem=1 processor=6 processor_type=PB5 clock_index=5 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=6 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=ratelim_cb subsystem=1 processor=6 processor_type=PB5 clock_index=7 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=8 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=9 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=10 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=11 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=PLLv2 subsystem=1 processor=6 processor_type=PB5 clock_index=12 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=6 processor_type=PB5 clock_index=13 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=14 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=15 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=pqmetX02 subsystem=1 processor=0 processor_type=PB5 clock_index=4 enabled=true use=CTLS lf=-1.000000 logical_proc=2
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=16 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=17 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=18 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=19 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=20 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=21 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=22 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=23 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=24 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=25 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=26 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=27 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=28 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=29 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=30 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=31 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=32 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=33 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=6 processor_type=PB5 clock_index=34 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_A subsystem=1 processor=6 processor_type=PB5 clock_index=35 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=FGENsqr2 subsystem=1 processor=6 processor_type=PB5 clock_index=36 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=angdiff_cb subsystem=1 processor=6 processor_type=PB5 clock_index=37 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=PLLv2 subsystem=1 processor=0 processor_type=PB5 clock_index=5 enabled=true use=CTLS lf=-1.000000 logical_proc=2
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=38 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=39 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=40 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=41 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=42 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=43 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=44 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=45 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=46 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=47 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=48 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=49 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=FGENsqr2 subsystem=1 processor=6 processor_type=PB5 clock_index=50 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=51 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=52 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=53 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=54 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=55 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=56 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=57 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=58 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=59 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=60 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=61 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=62 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=63 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=64 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=65 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=66 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=67 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=68 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=69 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=70 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=71 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=72 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=73 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=74 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=75 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=76 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=77 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=78 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=79 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=80 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=81 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=82 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=83 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=84 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=85 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=86 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=87 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=88 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=89 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=90 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=91 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=92 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=93 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=94 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=95 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=96 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=97 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=98 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=99 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=100 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=101 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=102 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=103 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=104 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=105 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=106 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=107 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=108 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=109 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=110 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=111 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=112 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=113 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=114 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=115 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=116 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=117 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=118 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=119 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=120 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=freq_cb subsystem=1 processor=6 processor_type=PB5 clock_index=121 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=122 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=123 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=124 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=125 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=126 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=127 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=RLDload1 component_type=_dyLoad112 subsystem=1 processor=3 processor_type=PB5 clock_index=6 enabled=true use=PSYS lf=10.000000
+timing_record: timing_name=(null) component_type=sqrt_cb subsystem=1 processor=6 processor_type=PB5 clock_index=128 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sqrt_cb subsystem=1 processor=6 processor_type=PB5 clock_index=129 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=130 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=XPOWNC subsystem=1 processor=6 processor_type=PB5 clock_index=131 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=132 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=133 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=abc2dq0_cb subsystem=1 processor=6 processor_type=PB5 clock_index=134 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=135 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=136 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=137 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=138 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=139 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=140 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=141 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=142 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=143 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=144 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=145 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=monoX01 subsystem=1 processor=6 processor_type=PB5 clock_index=146 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=6 processor_type=PB5 clock_index=147 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=148 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=149 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=150 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=dynlims_cb subsystem=1 processor=6 processor_type=PB5 clock_index=151 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=ieee2int_ subsystem=1 processor=6 processor_type=PB5 clock_index=152 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=153 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=154 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=155 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=156 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=157 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=158 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=159 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=160 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=161 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=162 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=163 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=164 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=165 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=166 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=167 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=168 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=169 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=170 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=171 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=edgedet_cb subsystem=1 processor=6 processor_type=PB5 clock_index=172 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=edgedet_cb subsystem=1 processor=6 processor_type=PB5 clock_index=173 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gtnetskt subsystem=1 processor=0 processor_type=PB5 clock_index=6 enabled=true use=CTLS lf=-1.000000 logical_proc=2
+timing_record: timing_name=(null) component_type=exp_cb subsystem=1 processor=6 processor_type=PB5 clock_index=174 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=175 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=176 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gtnetskt subsystem=1 processor=6 processor_type=PB5 clock_index=177 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=178 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=179 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=180 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=181 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=182 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=183 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=184 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=185 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=dq02abc_cb subsystem=1 processor=6 processor_type=PB5 clock_index=186 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=187 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=188 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=189 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=190 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=6 processor_type=PB5 clock_index=191 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=6 processor_type=PB5 clock_index=192 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=6 processor_type=PB5 clock_index=193 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=194 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=195 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=rms_meter subsystem=1 processor=6 processor_type=PB5 clock_index=196 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=197 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=198 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=199 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=200 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=201 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=202 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=203 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=204 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=205 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=206 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=207 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=208 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=209 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=210 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=_feedback subsystem=1 processor=6 processor_type=PB5 clock_index=211 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_A subsystem=1 processor=6 processor_type=PB5 clock_index=212 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sh_A subsystem=1 processor=6 processor_type=PB5 clock_index=213 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_A subsystem=1 processor=6 processor_type=PB5 clock_index=214 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_A subsystem=1 processor=6 processor_type=PB5 clock_index=215 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=int2ieee_ subsystem=1 processor=6 processor_type=PB5 clock_index=216 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=int2ieee_ subsystem=1 processor=6 processor_type=PB5 clock_index=217 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=218 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=219 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=1x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=PB5 clock_index=7 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=(null) component_type=TGOV1x subsystem=1 processor=6 processor_type=PB5 clock_index=220 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=6 processor_type=PB5 clock_index=221 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=222 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=223 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=2x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=PB5 clock_index=8 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=6 processor_type=PB5 clock_index=224 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=225 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=226 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=3x1 component_type=MACV31_CB subsystem=1 processor=2 processor_type=PB5 clock_index=9 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=6 processor_type=PB5 clock_index=227 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=228 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=229 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=6x1 component_type=MACV31_CB subsystem=1 processor=3 processor_type=PB5 clock_index=7 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=6 processor_type=PB5 clock_index=230 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=231 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=232 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=233 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=234 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=limits_cb subsystem=1 processor=6 processor_type=PB5 clock_index=235 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=236 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=vratelim_ subsystem=1 processor=6 processor_type=PB5 clock_index=237 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=gain_cb subsystem=1 processor=6 processor_type=PB5 clock_index=238 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sum3_B subsystem=1 processor=6 processor_type=PB5 clock_index=239 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=mul_B subsystem=1 processor=6 processor_type=PB5 clock_index=240 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=sigsw_cb subsystem=1 processor=6 processor_type=PB5 clock_index=241 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=8x1 component_type=MACV31_CB subsystem=1 processor=3 processor_type=PB5 clock_index=8 enabled=true use=PSYS lf=20.000000
+timing_record: timing_name=(null) component_type=IEEET1 subsystem=1 processor=6 processor_type=PB5 clock_index=242 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=xdivy_cb subsystem=1 processor=6 processor_type=PB5 clock_index=243 enabled=true use=CTLS lf=-1.000000 logical_proc=1
+timing_record: timing_name=(null) component_type=realpl_cb subsystem=1 processor=6 processor_type=PB5 clock_index=244 enabled=true use=CTLS lf=-1.000000 logical_proc=1

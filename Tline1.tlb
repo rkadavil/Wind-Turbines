@@ -1,0 +1,123 @@
+PS-CAD X-Tline 1.1
+
+FILENAME:                       Tline1.tlb
+UNITS ( Metric or Imperial ):   Metric
+# of Bundles:                   3
+# of Ground Wires:              2
+
+--------------------------------- MAIN DATA --------------------------------
+Ground Resistivity (ohm-m):     100.0
+Line Length(km):                41.55
+
+------------------------------- CONDUCTOR DATA -----------------------------
+Conductor # ---->                 1            2            3            
+Conductor Name:                       Chukar      Chukar      Chukar
+Conductor Type(AC/DC):          AC           AC           AC           
+V(kV)(AC:L-L,rms/DC:L-G,pk):           138.0       138.0       138.0
+V Phase(Deg.):                           0.0      -120.0       120.0
+Line I (kA)(AC:rms/DC:pk):               5.0         5.0         5.0
+Line I Phase(Deg.):                     20.0      -100.0       140.0
+# of Sub-Conductors:                       2           2           2
+Sub-Cond Radius(cm):                     1.5         1.5         1.5
+Sub-Cond Spacing(cm):                  45.72       45.72       45.72
+Horiz. Dist. X(m):                     -10.0         0.0        10.0
+Height at Tower Y(m):                   30.0        30.0        30.0
+Sag at Midspan(m):                      10.0        10.0        10.0
+DC Resistance(ohms/km):              0.03206     0.03206     0.03206
+
+----------------------------- GROUND WIRE DATA -----------------------------
+Ground Wire # ---->               1            2            
+Conductor Name:                   7/16 Steel  7/16 Steel
+Cond Radius(cm):                     0.55245     0.55245
+Horiz. Dist. X(m):                      -5.0         5.0
+Height at Tower Y(m):                   35.0        35.0
+Sag at Midspan(m):                      10.0        10.0
+DC Resistance(ohms/km):               2.8645      2.8645
+
+------------------------------ RLC DATA ------------------------------------
+Data Entry Format:                                   Ohms
+MVA Rating:                                          100.0
+Rated Voltage:                                       230.0
+Is Shunt Capacitance Known ?                         No
+Positive Sequence Series Resistance /km (ohms):      0.018547
+Positive Sequence Series Ind. Reactance /km (ohms):  0.37661
+Positive Sequence Shunt Cap. React. (Mohms)*km:      0.2279
+Zero Sequence Series Resistance /km (ohms):          0.3618376
+Zero Sequence Series Ind. Reactance /km (ohms):      1.227747
+Zero Sequence Shunt Cap. Reactance (Mohms)*km:       0.34514
+Number of Phases:                                    3
+Include Mutual Coupling:                             NO
+
+--------------------------MUTUAL COUPLING DATA -----------------------------
+Mutual Resistance /km (ohms):                        0.162
+Mutual Reactance /km (ohms):                         0.781
+
+------------------------------ GENERAL OPTIONS -----------------------------
+BEEPING:                        OBSOLETE
+PRINT COMMAND:                  lp -c %s
+PLOTTER HOST:                   jamesh
+
+--------------------------- LINE CONSTANTS OPTIONS -------------------------
+LINE MODEL:                     Bergeron
+TRANSFORMATIONS:                CONSTANT
+TRANSPOSING:                    IDEAL
+INTERPOLATE TRAVEL TIMES:       YES
+DATA ENTRY:                     Physical
+OUTPUT FORMAT:                  EMTDC
+PLOTTING FILES:                 DON'T WRITE
+
+----------------------------- CURVE FITTING DATA ---------------------------
+                              Z-Surge        Attenuation      Ti Transform   
+Max. # of Poles:                10               10               20               
+Max. Error (% of Max.):         0.2              0.2              2.0              
+
+------------------------------- FREQUENCY DATA -----------------------------
+Low  Freq (Hz):                 60.0
+High Freq (Hz):                 1.000000e+06
+Freq. for Constant Ti (Hz):     2000.0
+
+-------------------------------- FACE OPTIONS ------------------------------
+PLOTTING FILES:                 DON'T WRITE
+Magn. Field Calc. Height(m):    1
+Freq. for R-I Calc. (Hz):       1e+06
+
+------------------------- CURRENT PLOT INFORMATION -------------------------
+                              #Grids  SigFigs  Not.   
+Plot 1 X ->                     5       3       0      
+Plot 1 Y ->                     5       3       0      
+Plot 2 X ->                     5       3       0      
+Plot 2 Y ->                     5       3       0      
+
+-------------------------------- GRAPH DATA --------------------------------
+                           Min              Max            
+Y-Coordinates              0                50             
+Magnetic Field             0                0.1            
+Ground Gradient            0                0.2            
+Radio Interference         0.4              0.5            
+Audible Noise              0                5              
+Surface Gradient           0                5              
+X-Coordinates              -50              50             
+LOGW                       1                6              
+Surge Impedance(1)         0                1000           
+Surge Impedance(2)         0                1000           
+Surge Impedance(3)         0                1000           
+Attenuation Const(1)       -1               1              
+Attenuation Const(2)       -1               1              
+Attenuation Const(3)       -1               1              
+Ti Transform(1)(1)       -1               1              
+Ti Transform(1)(2)       -1               1              
+Ti Transform(1)(3)       -1               1              
+Ti Transform(2)(1)       -1               1              
+Ti Transform(2)(2)       -1               1              
+Ti Transform(2)(3)       -1               1              
+Ti Transform(3)(1)       -1               1              
+Ti Transform(3)(2)       -1               1              
+Ti Transform(3)(3)       -1               1              
+Line Constants:	SOLVED!
+C ---  Length: 4.155000e+04  Metres 
+C ---  3 Conductors, 2 Ground Wires, Ground Res.: 1.000000e+02  Ohm-Metres 
+C
+  3     0    %3d   %3d   60.0   60.0   41550.0  0.005  0.005 /
+  %3d   %3d  2.066579e-01  6.607743e+02  3.618376e-04  3.618376e-04    5.773503e-01  8.164966e-01  0   /
+  %3d   %3d  1.415861e-01  3.021734e+02  1.854662e-05  1.854662e-05    5.773503e-01  -4.082483e-01  7.071068e-01   /
+  %3d   %3d  1.415861e-01  3.021734e+02  1.854662e-05  1.854662e-05    5.773503e-01  -4.082483e-01  -7.071068e-01   /

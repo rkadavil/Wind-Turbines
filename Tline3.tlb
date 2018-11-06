@@ -1,0 +1,174 @@
+PS-CAD X-Tline 1.1
+
+FILENAME:                       Tline2.tlb
+UNITS ( Metric or Imperial ):   Metric
+# of Bundles:                   3
+# of Ground Wires:              2
+
+--------------------------------- MAIN DATA --------------------------------
+Ground Resistivity (ohm-m):     100.0
+Line Length(km):                61.14
+
+------------------------------- CONDUCTOR DATA -----------------------------
+Conductor # ---->                 1            2            3            
+Conductor Name:                       Chukar      Chukar      Chukar
+Conductor Type(AC/DC):          AC           AC           AC           
+V(kV)(AC:L-L,rms/DC:L-G,pk):           138.0       138.0       138.0
+V Phase(Deg.):                           0.0      -120.0       120.0
+Line I (kA)(AC:rms/DC:pk):               5.0         5.0         5.0
+Line I Phase(Deg.):                     20.0      -100.0       140.0
+# of Sub-Conductors:                       1           1           1
+Sub-Cond Radius(cm):                    1.58        1.58        1.58
+Sub-Cond Spacing(cm):                  45.72       45.72       45.72
+Horiz. Dist. X(m):                     -10.0         0.0        10.0
+Height at Tower Y(m):                   30.0        30.0        30.0
+Sag at Midspan(m):                      10.0        10.0        10.0
+DC Resistance(ohms/km):              0.03206     0.03206     0.03206
+
+----------------------------- GROUND WIRE DATA -----------------------------
+Ground Wire # ---->               1            2            
+Conductor Name:                   7/16 Steel  7/16 Steel
+Cond Radius(cm):                     0.55245     0.55245
+Horiz. Dist. X(m):                      -5.0         5.0
+Height at Tower Y(m):                   35.0        35.0
+Sag at Midspan(m):                      10.0        10.0
+DC Resistance(ohms/km):               2.8645      2.8645
+
+------------------------------ RLC DATA ------------------------------------
+Data Entry Format:                                   Ohms
+MVA Rating:                                          100.0
+Rated Voltage:                                       230.0
+Is Shunt Capacitance Known ?                         No
+Positive Sequence Series Resistance /km (ohms):      0.018547
+Positive Sequence Series Ind. Reactance /km (ohms):  0.37661
+Positive Sequence Shunt Cap. React. (Mohms)*km:      0.2279
+Zero Sequence Series Resistance /km (ohms):          0.3618376
+Zero Sequence Series Ind. Reactance /km (ohms):      1.227747
+Zero Sequence Shunt Cap. Reactance (Mohms)*km:       0.34514
+Number of Phases:                                    3
+Include Mutual Coupling:                             NO
+
+--------------------------MUTUAL COUPLING DATA -----------------------------
+Mutual Resistance /km (ohms):                        0.162
+Mutual Reactance /km (ohms):                         0.781
+
+------------------------------ GENERAL OPTIONS -----------------------------
+BEEPING:                        OBSOLETE
+PRINT COMMAND:                  lp -c %s
+PLOTTER HOST:                   jamesh
+
+--------------------------- LINE CONSTANTS OPTIONS -------------------------
+LINE MODEL:                     Fre-dep
+TRANSFORMATIONS:                CONSTANT
+TRANSPOSING:                    IDEAL
+INTERPOLATE TRAVEL TIMES:       YES
+DATA ENTRY:                     Physical
+OUTPUT FORMAT:                  EMTDC
+PLOTTING FILES:                 DON'T WRITE
+
+----------------------------- CURVE FITTING DATA ---------------------------
+                              Z-Surge        Attenuation      Ti Transform   
+Max. # of Poles:                10               10               20               
+Max. Error (% of Max.):         0.2              0.2              2.0              
+
+------------------------------- FREQUENCY DATA -----------------------------
+Low  Freq (Hz):                 60.0
+High Freq (Hz):                 1.000000e+06
+Freq. for Constant Ti (Hz):     2000.0
+
+-------------------------------- FACE OPTIONS ------------------------------
+PLOTTING FILES:                 DON'T WRITE
+Magn. Field Calc. Height(m):    1
+Freq. for R-I Calc. (Hz):       1e+06
+
+------------------------- CURRENT PLOT INFORMATION -------------------------
+                              #Grids  SigFigs  Not.   
+Plot 1 X ->                     5       3       0      
+Plot 1 Y ->                     5       3       0      
+Plot 2 X ->                     5       3       0      
+Plot 2 Y ->                     5       3       0      
+
+-------------------------------- GRAPH DATA --------------------------------
+                           Min              Max            
+Y-Coordinates              0                50             
+Magnetic Field             0                0.1            
+Ground Gradient            0                0.2            
+Radio Interference         0.4              0.5            
+Audible Noise              0                5              
+Surface Gradient           0                5              
+X-Coordinates              -50              50             
+LOGW                       1                6              
+Surge Impedance(1)         0                1000           
+Surge Impedance(2)         0                1000           
+Surge Impedance(3)         0                1000           
+Attenuation Const(1)       -1               1              
+Attenuation Const(2)       -1               1              
+Attenuation Const(3)       -1               1              
+Ti Transform(1)(1)       -1               1              
+Ti Transform(1)(2)       -1               1              
+Ti Transform(1)(3)       -1               1              
+Ti Transform(2)(1)       -1               1              
+Ti Transform(2)(2)       -1               1              
+Ti Transform(2)(3)       -1               1              
+Ti Transform(3)(1)       -1               1              
+Ti Transform(3)(2)       -1               1              
+Ti Transform(3)(3)       -1               1              
+Line Constants:	SOLVED!
+C ---  Length: 6.114000e+04  Metres 
+C ---  3 Conductors, 2 Ground Wires, Ground Res.: 1.000000e+02  Ohm-Metres 
+C
+Fre-Dep   3     0    %3d   %3d  /
+C -------------------- Mode 1 Data => --------------------
+   %3d    %3d  2.050552e-01 / Nodes, Travel-Time(mS)
+C -- Mode 1 Surge Impedances => 
+  10   10   8.066966e+02 / Nzero, Npole, H
+  5.561668e+02  6.129479e+02  6.977742e+02  7.943396e+02  8.897359e+02  1.012867e+03   /
+  1.153038e+03  1.312608e+03  2.066116e+03  4.797867e+03   /  End of Zeroes
+  5.128885e+02  6.030970e+02  6.865599e+02  7.815734e+02  8.754366e+02  9.965888e+02   /
+  1.134507e+03  1.250333e+03  1.968092e+03  4.720759e+03   /  End of Poles
+C -- Mode 1 Attenuation Constants => 
+  6   9   9.975731e-01 / Nzero, Npole, H
+  4.022322e+02  7.943396e+02  1.355838e+03  2.550516e+03  4.876235e+03  1.467442e+04   /  End of Zeroes
+  3.957677e+02  7.815734e+02  1.334048e+03  2.509526e+03  4.797867e+03  1.375356e+04   /
+  7.660817e+04  9.287161e+05  9.438856e+05   /  End of Poles
+C -- Mode 1 Current Transformation Matrix => 
+C -- Row 1  => 
+  0   0   5.773503e-01 / Nzero, Npole, H
+C -- Row 2  => 
+  0   0   8.164966e-01 / Nzero, Npole, H
+C -- Row 3  => 
+  0   0   0 / Nzero, Npole, H
+C -------------------- Mode 2 Data => --------------------
+   %3d    %3d  2.040381e-01 / Nodes, Travel-Time(mS)
+C -- Mode 2 Surge Impedances => 
+  2   2   4.064265e+02 / Nzero, Npole, H
+  6.331351e+02  1.126720e+04   /  End of Zeroes
+  6.229597e+02  1.114145e+04   /  End of Poles
+C -- Mode 2 Attenuation Constants => 
+  4   4   9.951887e-01 / Nzero, Npole, H
+  9.304908e+04  3.999350e+05  1.534659e+06  5.701136e+06   /  End of Zeroes
+  8.721003e+04  3.688139e+05  1.263499e+06  2.886902e+06   /  End of Poles
+C -- Mode 2 Current Transformation Matrix => 
+C -- Row 1  => 
+  0   0   5.773503e-01 / Nzero, Npole, H
+C -- Row 2  => 
+  0   0   -4.082483e-01 / Nzero, Npole, H
+C -- Row 3  => 
+  0   0   7.071068e-01 / Nzero, Npole, H
+C -------------------- Mode 3 Data => --------------------
+   %3d    %3d  2.040381e-01 / Nodes, Travel-Time(mS)
+C -- Mode 3 Surge Impedances => 
+  2   2   4.064265e+02 / Nzero, Npole, H
+  6.331351e+02  1.126720e+04   /  End of Zeroes
+  6.229597e+02  1.114145e+04   /  End of Poles
+C -- Mode 3 Attenuation Constants => 
+  4   4   9.951887e-01 / Nzero, Npole, H
+  9.304908e+04  3.999350e+05  1.534659e+06  5.701136e+06   /  End of Zeroes
+  8.721003e+04  3.688139e+05  1.263499e+06  2.886902e+06   /  End of Poles
+C -- Mode 3 Current Transformation Matrix => 
+C -- Row 1  => 
+  0   0   5.773503e-01 / Nzero, Npole, H
+C -- Row 2  => 
+  0   0   -4.082483e-01 / Nzero, Npole, H
+C -- Row 3  => 
+  0   0   -7.071068e-01 / Nzero, Npole, H
